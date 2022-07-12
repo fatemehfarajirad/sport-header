@@ -1,0 +1,92 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+}
+#hero{
+    min-height: 10vh !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25rem;
+    padding-top: 5rem;
+}
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+}
+.hero__buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+.btn--right{
+    border: 0.1rem solid var(--light-color);
+    padding: 2rem;
+    color: var(--light-color);
+    background-color: transparent;
+}
+.btn--left{
+    background-color: #00af91;
+    padding: 1rem;
+    color: var(--light-color);
+}
+.btn--left:hover{
+    background-color: var(--darkgreen-color);
+    border: 1rem solid var(--darkgreen-color);
+}
+.hero__right{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.btn--right:hover{
+    background-color: var(--darkgreen-color);
+    border: 0.1rem solid var(--darkgreen-color);
+}
+.hero__right--email{
+    transform: rotate(270deg);
+}
+.hero__right--phone{
+    transform: rotate(270deg);
+}
+.right__up{
+    display: flex;
+    flex-direction: column;
+    gap: 9rem ;
+}
+.right__down{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem ;
+}
+.hero__right--twiiter:hover{
+    color: var(--darkgreen-color);
+}
+.hero__right--facebook:hover{
+    color: var(--darkgreen-color);
+}
+.hero__right--linkdin:hover{
+    color: var(--darkgreen-color);
+}
+.hero__right--phone:hover{
+    color: var(--darkgreen-color);
+}
+.hero__right--email:hover{
+    color: var(--darkgreen-color);
+}

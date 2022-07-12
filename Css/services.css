@@ -1,0 +1,17 @@
+#services{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--darkblack-color);
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.services__up{
+    display: flex;
+    gap: 2rem;
+    justify-content:space-around;
+}
+.services__up p{
+    opacity: 0.4;
+}

@@ -1,0 +1,50 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+.back{
+    background-image: url(../Images/jenny-hill-mQVWb7kUoOE-unsplash.jpg);
+    background-repeat: no-repeat repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+#header{
+   min-height: 10vh;
+}
+.header__btn{
+    background-color: #00af91;
+    padding: 1rem;
+    color: var(--light-color);
+}
+.header__btn:hover{
+    background-color: var(--darkgreen-color);
+    border: 1rem solid var(--darkgreen-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar__menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    padding: 3rem;
+}
+.navbar_item:hover{
+    color: var(--darkgreen-color);
+    
+}
